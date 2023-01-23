@@ -1,3 +1,2 @@
 .idea/
-.github/workflows/.terraform.yml
-.github/workflows/.terraform.yml.bak
+*.terraform.yml.bak
