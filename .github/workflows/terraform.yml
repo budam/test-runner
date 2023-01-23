@@ -19,7 +19,7 @@ jobs:
       TF_VAR_datadog_app_key: ${{ secrets.DD_APP_KEY }}
       ARM_CLIENT_ID: ${{ secrets.SP_AZURE_CLIENT_ID }}
       ARM_CLIENT_SECRET: ${{ secrets.SP_AZURE_CLIENT_SECRET }}
-    runs-on: self-hosted
+    runs-on: cp-vm-demo-linux-01
 
     #  Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     # Set the working directory to main for the config files
