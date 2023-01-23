@@ -24,9 +24,9 @@ jobs:
     # Steps represent a sequence of taska that will be execute as part of the job
     steps:
 
-
-      - name: Checkout
-        uses: actions/checkout@v2
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      #- name: Checkout
+      - uses: actions/checkout@v2
 
       # Runs a single command using the runner shell
       - name: Run a one-line script
