@@ -4,9 +4,11 @@ name: 'Simple'
 on: #[push, pull_request, workflow_dispatch]
   # Allows to run this workflow manually from the Acrtions tab
   workflow_dispatch:
+
   # Triggers the workflow on push or pull request but only for the main branch
   # push:
   #		branches: [ main ]
+
   #pull_request:
   #		branches: [ main ]
 
