@@ -23,8 +23,8 @@ jobs:
         run: echo Hello, world!
 
       # Runs docker hello-world
-      - name: Hello from Docker
-        run: docker run hello-world
+#      - name: Hello from Docker
+#        run: docker run hello-world
 
 
 #name: 'Simple'
